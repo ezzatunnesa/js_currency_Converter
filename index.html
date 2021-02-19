@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <title>Currency converter</title>
+</head>
+<body>
+
+
+    <div class="converter-body">
+
+        <h1 class="converter-title">Currency converter</h1>
+
+        <div>
+                    
+        <input type="number" name="first" placeholder="Input" onchange="firstToSecond()" oninput="firstToSecond()" id="firstcurrecy">
+        <span> = </span>
+        <input type="number" name="second" placeholder="Result" id="secondcurrecy">
+            
+        </div>
+
+<!--         
+        <input type="number" name="first" placeholder="Input" onchange="firstToSecond()" oninput="firstToSecond()" id="firstcurrecy">
+        <span> = </span>
+        <input type="number" name="second" placeholder="Result" id="secondcurrecy"> -->
+
+
+        <div>
+            <select name="currency" id="inputcurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+                <option value="Taka">Bangladeshi Taka</option>
+                <option value="Real">Omeni real</option>
+                <option value="Doller">US Doller</option>
+                <option value="Rupee">Indian Rupee</option>
+            </select>
+
+
+            <select name="currency" id="outputcurrency"  onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+                <option value="Taka1">Bangladeshi Taka</option>
+                <option value="Real1">Omeni real</option>
+                <option value="Doller1">US Doller</option>
+                <option value="Rupee1">Indian Rupee</option>
+            </select>
+        </div>
+
+
+        <!-- <select name="currency" id="inputcurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+            <option value="Taka">Bangladeshi Taka</option>
+            <option value="Real">Omeni real</option>
+            <option value="Doller">US Doller</option>
+            <option value="Rupee">Indian Rupee</option>
+        </select> -->
+
+
+
+        <!-- <select name="currency" id="outputcurrency"  onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+            <option value="Taka1">Bangladeshi Taka</option>
+            <option value="Real1">Omeni real</option>
+            <option value="Doller1">US Doller</option>
+            <option value="Rupee1">Indian Rupee</option>
+        </select> -->
+  
+    </div>
+
+    <div class="footer">
+        <p>Developed By:Ezzatun Nesa~~~Date:19-02-2020</p>
+        
+      </div>
+    
+
+</body>
+</html>
